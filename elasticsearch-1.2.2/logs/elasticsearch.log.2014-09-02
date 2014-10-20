@@ -1,0 +1,15 @@
+[2014-09-02 12:14:12,997][INFO ][node                     ] [Shang-Chi] version[1.2.2], pid[1913], build[9902f08/2014-07-09T12:02:32Z]
+[2014-09-02 12:14:12,998][INFO ][node                     ] [Shang-Chi] initializing ...
+[2014-09-02 12:14:13,002][INFO ][plugins                  ] [Shang-Chi] loaded [], sites []
+[2014-09-02 12:14:15,674][INFO ][node                     ] [Shang-Chi] initialized
+[2014-09-02 12:14:15,674][INFO ][node                     ] [Shang-Chi] starting ...
+[2014-09-02 12:14:15,783][INFO ][transport                ] [Shang-Chi] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.101:9300]}
+[2014-09-02 12:14:18,823][INFO ][cluster.service          ] [Shang-Chi] new_master [Shang-Chi][gInBpMtqRM-3jM7MV55DzQ][BelfordZ-Corvus.local][inet[/192.168.0.101:9300]], reason: zen-disco-join (elected_as_master)
+[2014-09-02 12:14:18,844][INFO ][discovery                ] [Shang-Chi] elasticsearch/gInBpMtqRM-3jM7MV55DzQ
+[2014-09-02 12:14:18,868][INFO ][http                     ] [Shang-Chi] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.101:9200]}
+[2014-09-02 12:14:19,497][INFO ][gateway                  ] [Shang-Chi] recovered [4] indices into cluster_state
+[2014-09-02 12:14:19,498][INFO ][node                     ] [Shang-Chi] started
+[2014-09-02 23:51:56,216][INFO ][node                     ] [Shang-Chi] stopping ...
+[2014-09-02 23:51:56,283][INFO ][node                     ] [Shang-Chi] stopped
+[2014-09-02 23:51:56,283][INFO ][node                     ] [Shang-Chi] closing ...
+[2014-09-02 23:51:56,287][INFO ][node                     ] [Shang-Chi] closed

@@ -1,0 +1,1301 @@
+[2014-07-18 17:08:09,972][INFO ][node                     ] [Mys-Tech] version[1.2.2], pid[5426], build[9902f08/2014-07-09T12:02:32Z]
+[2014-07-18 17:08:09,972][INFO ][node                     ] [Mys-Tech] initializing ...
+[2014-07-18 17:08:09,975][INFO ][plugins                  ] [Mys-Tech] loaded [], sites []
+[2014-07-18 17:08:11,792][INFO ][node                     ] [Mys-Tech] initialized
+[2014-07-18 17:08:11,792][INFO ][node                     ] [Mys-Tech] starting ...
+[2014-07-18 17:08:11,868][INFO ][transport                ] [Mys-Tech] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.14:9300]}
+[2014-07-18 17:08:14,899][INFO ][cluster.service          ] [Mys-Tech] new_master [Mys-Tech][BePoiHTnRMekmmsMS25lOw][BelfordZ-Corvus.local][inet[/192.168.0.14:9300]], reason: zen-disco-join (elected_as_master)
+[2014-07-18 17:08:14,906][INFO ][discovery                ] [Mys-Tech] elasticsearch/BePoiHTnRMekmmsMS25lOw
+[2014-07-18 17:08:14,917][INFO ][http                     ] [Mys-Tech] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.14:9200]}
+[2014-07-18 17:08:14,930][INFO ][gateway                  ] [Mys-Tech] recovered [0] indices into cluster_state
+[2014-07-18 17:08:14,930][INFO ][node                     ] [Mys-Tech] started
+[2014-07-18 17:08:16,406][INFO ][cluster.service          ] [Mys-Tech] added {[logstash-BelfordZ-Corvus.local-2426-2012][4jjE5l2CS56kntJf6JejEQ][BelfordZ-Corvus.local][inet[/192.168.0.14:9301]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-BelfordZ-Corvus.local-2426-2012][4jjE5l2CS56kntJf6JejEQ][BelfordZ-Corvus.local][inet[/192.168.0.14:9301]]{client=true, data=false}])
+[2014-07-18 17:12:47,633][INFO ][cluster.metadata         ] [Mys-Tech] [logstash-2014.07.19] creating index, cause [auto(bulk api)], shards [5]/[1], mappings []
+[2014-07-18 17:12:47,972][INFO ][cluster.metadata         ] [Mys-Tech] [logstash-2014.07.19] update_mapping [almanac] (dynamic)
+[2014-07-18 17:12:48,403][INFO ][cluster.metadata         ] [Mys-Tech] [logstash-2014.07.19] update_mapping [almanac] (dynamic)
+[2014-07-18 17:20:46,446][INFO ][cluster.metadata         ] [Mys-Tech] [logstash-2014.07.19] update_mapping [almanac] (dynamic)
+[2014-07-18 17:21:23,353][INFO ][cluster.metadata         ] [Mys-Tech] [logstash-2014.07.19] update_mapping [almanac] (dynamic)
+[2014-07-18 17:22:48,648][INFO ][cluster.metadata         ] [Mys-Tech] [logstash-2014.07.19] update_mapping [almanac] (dynamic)
+[2014-07-18 17:23:47,281][INFO ][cluster.service          ] [Mys-Tech] removed {[logstash-BelfordZ-Corvus.local-2426-2012][4jjE5l2CS56kntJf6JejEQ][BelfordZ-Corvus.local][inet[/192.168.0.14:9301]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-BelfordZ-Corvus.local-2426-2012][4jjE5l2CS56kntJf6JejEQ][BelfordZ-Corvus.local][inet[/192.168.0.14:9301]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-07-18 17:33:35,206][INFO ][cluster.service          ] [Mys-Tech] added {[logstash-BelfordZ-Corvus.local-5781-2012][zwLa_x6SS8ufBOEQfaF6sQ][BelfordZ-Corvus.local][inet[/192.168.0.14:9301]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-BelfordZ-Corvus.local-5781-2012][zwLa_x6SS8ufBOEQfaF6sQ][BelfordZ-Corvus.local][inet[/192.168.0.14:9301]]{client=true, data=false}])
+[2014-07-18 17:37:42,294][INFO ][cluster.service          ] [Mys-Tech] removed {[logstash-BelfordZ-Corvus.local-5781-2012][zwLa_x6SS8ufBOEQfaF6sQ][BelfordZ-Corvus.local][inet[/192.168.0.14:9301]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-BelfordZ-Corvus.local-5781-2012][zwLa_x6SS8ufBOEQfaF6sQ][BelfordZ-Corvus.local][inet[/192.168.0.14:9301]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-07-18 17:41:25,722][INFO ][node                     ] [Mys-Tech] stopping ...
+[2014-07-18 17:41:25,748][INFO ][node                     ] [Mys-Tech] stopped
+[2014-07-18 17:41:25,748][INFO ][node                     ] [Mys-Tech] closing ...
+[2014-07-18 17:41:25,751][INFO ][node                     ] [Mys-Tech] closed
+[2014-07-18 17:41:26,913][INFO ][node                     ] [Richard Fisk] version[1.2.2], pid[6004], build[9902f08/2014-07-09T12:02:32Z]
+[2014-07-18 17:41:26,914][INFO ][node                     ] [Richard Fisk] initializing ...
+[2014-07-18 17:41:26,917][INFO ][plugins                  ] [Richard Fisk] loaded [], sites []
+[2014-07-18 17:41:28,797][INFO ][node                     ] [Richard Fisk] initialized
+[2014-07-18 17:41:28,798][INFO ][node                     ] [Richard Fisk] starting ...
+[2014-07-18 17:41:28,878][INFO ][transport                ] [Richard Fisk] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.0.14:9300]}
+[2014-07-18 17:41:31,904][INFO ][cluster.service          ] [Richard Fisk] new_master [Richard Fisk][qMfmeHrgQ62OoI5-JZlNFQ][BelfordZ-Corvus.local][inet[/192.168.0.14:9300]], reason: zen-disco-join (elected_as_master)
+[2014-07-18 17:41:31,923][INFO ][discovery                ] [Richard Fisk] elasticsearch/qMfmeHrgQ62OoI5-JZlNFQ
+[2014-07-18 17:41:31,937][INFO ][http                     ] [Richard Fisk] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.0.14:9200]}
+[2014-07-18 17:41:32,338][INFO ][gateway                  ] [Richard Fisk] recovered [1] indices into cluster_state
+[2014-07-18 17:41:32,340][INFO ][node                     ] [Richard Fisk] started
+[2014-07-18 17:57:11,007][INFO ][cluster.metadata         ] [Richard Fisk] [logstash-2014.07.19] update_mapping [anduril] (dynamic)
+[2014-07-18 17:57:11,060][INFO ][cluster.metadata         ] [Richard Fisk] [logstash-2014.07.19] update_mapping [anduril] (dynamic)
+[2014-07-18 17:57:12,071][INFO ][cluster.metadata         ] [Richard Fisk] [logstash-2014.07.19] update_mapping [anduril] (dynamic)
+[2014-07-18 17:57:35,800][INFO ][cluster.metadata         ] [Richard Fisk] [logstash-2014.07.19] update_mapping [anduril] (dynamic)
+[2014-07-18 17:57:57,738][INFO ][cluster.metadata         ] [Richard Fisk] [logstash-2014.07.19] update_mapping [anduril] (dynamic)
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][0], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@68a895ba] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757717,"to":1405731657717}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}},"highlight":{"fields":{},"fragment_size":2147483647,"pre_tags":["@start-highlight@"],"post_tags":["@end-highlight@"]},"size":500,"sort":[{"_score":{"order":"desc"}}]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:342)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:263)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 19 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 21 more
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][0], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@13fe1c04] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":100,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757713,"to":1405731657713}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][2], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@fe154dd] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":10,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757716,"to":1405731657716}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][0], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@fe154dd] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":10,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757716,"to":1405731657716}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][4], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@fe154dd] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":10,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757716,"to":1405731657716}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][3], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@fe154dd] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":10,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757716,"to":1405731657716}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][2], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@68a895ba] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757717,"to":1405731657717}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}},"highlight":{"fields":{},"fragment_size":2147483647,"pre_tags":["@start-highlight@"],"post_tags":["@end-highlight@"]},"size":500,"sort":[{"_score":{"order":"desc"}}]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:342)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:263)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 19 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 21 more
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][2], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@13fe1c04] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":100,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757713,"to":1405731657713}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][3], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@68a895ba] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757717,"to":1405731657717}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}},"highlight":{"fields":{},"fragment_size":2147483647,"pre_tags":["@start-highlight@"],"post_tags":["@end-highlight@"]},"size":500,"sort":[{"_score":{"order":"desc"}}]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:342)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:263)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 19 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 21 more
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][1], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@13fe1c04] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":100,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757713,"to":1405731657713}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][3], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@13fe1c04]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":100,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757713,"to":1405731657713}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,762][DEBUG][action.search.type       ] [Richard Fisk] All shards failed for phase: [query]
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][1], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@68a895ba]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757717,"to":1405731657717}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}},"highlight":{"fields":{},"fragment_size":2147483647,"pre_tags":["@start-highlight@"],"post_tags":["@end-highlight@"]},"size":500,"sort":[{"_score":{"order":"desc"}}]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:342)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:263)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 19 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 21 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] All shards failed for phase: [query]
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][1], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@fe154dd]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":10,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757716,"to":1405731657716}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,767][DEBUG][action.search.type       ] [Richard Fisk] All shards failed for phase: [query]
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][4], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@68a895ba] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757717,"to":1405731657717}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}},"highlight":{"fields":{},"fragment_size":2147483647,"pre_tags":["@start-highlight@"],"post_tags":["@end-highlight@"]},"size":500,"sort":[{"_score":{"order":"desc"}}]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:342)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:263)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 19 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 21 more
+[2014-07-18 18:00:57,743][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][4], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@13fe1c04] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":100,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757713,"to":1405731657713}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][3], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@66e83b43] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757757,"to":1405731657757}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}},"highlight":{"fields":{},"fragment_size":2147483647,"pre_tags":["@start-highlight@"],"post_tags":["@end-highlight@"]},"size":500,"sort":[{"_score":{"order":"desc"}}]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:342)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:263)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 19 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 21 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][2], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@66e83b43]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757757,"to":1405731657757}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}},"highlight":{"fields":{},"fragment_size":2147483647,"pre_tags":["@start-highlight@"],"post_tags":["@end-highlight@"]},"size":500,"sort":[{"_score":{"order":"desc"}}]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:342)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:263)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 19 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 21 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][4], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@66e83b43] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757757,"to":1405731657757}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}},"highlight":{"fields":{},"fragment_size":2147483647,"pre_tags":["@start-highlight@"],"post_tags":["@end-highlight@"]},"size":500,"sort":[{"_score":{"order":"desc"}}]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:342)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:263)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 19 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 21 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][0], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@66e83b43] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757757,"to":1405731657757}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}},"highlight":{"fields":{},"fragment_size":2147483647,"pre_tags":["@start-highlight@"],"post_tags":["@end-highlight@"]},"size":500,"sort":[{"_score":{"order":"desc"}}]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:342)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:263)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 19 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 21 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][3], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4c73f7fd]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":10,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757756,"to":1405731657756}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][2], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4c73f7fd] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":10,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757756,"to":1405731657756}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][1], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@66e83b43] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757757,"to":1405731657757}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}},"highlight":{"fields":{},"fragment_size":2147483647,"pre_tags":["@start-highlight@"],"post_tags":["@end-highlight@"]},"size":500,"sort":[{"_score":{"order":"desc"}}]}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:342)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:268)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:263)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 19 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 21 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][4], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4c73f7fd] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":10,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757756,"to":1405731657756}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][1], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4c73f7fd] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":10,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757756,"to":1405731657756}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][0], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4c73f7fd] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":10,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757756,"to":1405731657756}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][2], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2374d982]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":100,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757756,"to":1405731657756}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][3], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2374d982] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":100,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757756,"to":1405731657756}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][4], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2374d982] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":100,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757756,"to":1405731657756}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][1], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2374d982] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":100,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757756,"to":1405731657756}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,765][DEBUG][action.search.type       ] [Richard Fisk] [logstash-2014.07.19][0], node[qMfmeHrgQ62OoI5-JZlNFQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2374d982] lastShard [true]
+org.elasticsearch.search.SearchParseException: [logstash-2014.07.19][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"facets":{"terms":{"terms":{"field":"_type","size":100,"order":"count","exclude":[]},"facet_filter":{"fquery":{"query":{"filtered":{"query":{"bool":{"should":[{"query_string":{"query":"*\\"}},{"query_string":{"query":"*"}}]}},"filter":{"bool":{"must":[{"range":{"@timestamp":{"from":1405730757756,"to":1405731657756}}},{"fquery":{"query":{"query_string":{"query":"@fields.req.method:(\"POST\")"}},"_cache":true}}]}}}}}}}},"size":0}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:649)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:511)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:483)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:252)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [logstash-2014.07.19] Failed to parse query [*\]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:241)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FilteredQueryParser.parse(FilteredQueryParser.java:71)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:238)
+	at org.elasticsearch.index.query.FQueryFilterParser.parse(FQueryFilterParser.java:67)
+	at org.elasticsearch.index.query.QueryParseContext.executeFilterParser(QueryParseContext.java:294)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerFilter(QueryParseContext.java:275)
+	at org.elasticsearch.index.query.IndexQueryParserService.parseInnerFilter(IndexQueryParserService.java:282)
+	at org.elasticsearch.search.facet.FacetParseElement.parse(FacetParseElement.java:86)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:633)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse '*\': Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:130)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:883)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:224)
+	... 20 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 3.  Encountered: <EOF> after : ""
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:599)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_3(QueryParser.java:498)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:475)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:226)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:181)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:170)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:120)
+	... 22 more
+[2014-07-18 18:00:57,790][DEBUG][action.search.type       ] [Richard Fisk] All shards failed for phase: [query]
+[2014-07-18 18:00:57,780][DEBUG][action.search.type       ] [Richard Fisk] All shards failed for phase: [query]
+[2014-07-18 18:00:57,774][DEBUG][action.search.type       ] [Richard Fisk] All shards failed for phase: [query]
+[2014-07-18 18:34:13,918][INFO ][node                     ] [Richard Fisk] stopping ...
+[2014-07-18 18:34:13,953][INFO ][node                     ] [Richard Fisk] stopped
+[2014-07-18 18:34:13,954][INFO ][node                     ] [Richard Fisk] closing ...
+[2014-07-18 18:34:13,958][INFO ][node                     ] [Richard Fisk] closed
